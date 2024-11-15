@@ -1,5 +1,5 @@
 pipeline {
-    agent windows_slave1
+    agent none
     stages {
 
         stage('pull') {
